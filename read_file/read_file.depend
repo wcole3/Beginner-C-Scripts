@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1486250222 source:/Users/wcole/Desktop/CPP_Programs_from_book/read_file/main.cpp
+	<cstdlib>
+	<cstdio>
+	<fstream>
+	<iostream>
+

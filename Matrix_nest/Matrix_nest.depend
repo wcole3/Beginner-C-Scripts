@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1458173453 source:/Users/wcole/Desktop/CPP_Programs_from_book/Matrix_nest/main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+

@@ -1,0 +1,42 @@
+#ifndef TEMPLATEVECTOR_INCLUDED
+#define TEMPLATEVECTOR_INCLUDED
+
+template <class T>
+class TemplateVector
+{
+public:
+    TemplateVector(int nSize)
+    {
+        arrSize=nSize;
+        array= new T[arrSize];
+        //reset just mades sure the array is initialized
+        //Reset controls the read/write indexs
+        reset();
+    }
+
+    void reset()
+    { nReadindex=0; nWriteindex=0;}
+    //get size of vector only including the actual number of objects
+    int size(){return nWriteindex;}
+    //want to be able to add an object
+    void add(T object)
+    {
+        if(nWriteindex < arrSize)
+        {
+        //this assigns nWriteindex and then increments it
+        array[nWriteindex++]=object;
+        }
+    }
+    //Need something to display the elements
+    T get()
+    {
+        return array[nReadindex++];
+    }
+protected:
+    int arrSize;
+    int nWriteindex;
+    int nReadindex;
+    T* array;
+};
+
+#endif // TEMPLATEVECTOR_INCLUDED

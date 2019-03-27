@@ -1,0 +1,43 @@
+#ifndef MOLECULE_INCLUDED
+#define MOLECULE_INCLUDED
+#include <cstdlib>
+#include <cstdio>
+#include <fstream>
+#include <iostream>
+
+using namespace std;
+
+class Molecule
+{
+public:
+    //number of atoms
+    int nAtom;
+    //formal charge
+    int charge;
+    //atomic number of atoms
+    int *zvals;
+    //x,y,z coordinates of atoms
+    double **geom;
+    //now some useful functions
+    void print_geom();
+    void rotateMole(double phi);
+    void translate(double x, double y, double z);
+    double bond(int atom1, int atom2);
+    double angle(int atom1, int atom2, int atom3);
+    double torsion(int atom1, int atom2, int atom3, int atom4);
+    void printInfo();
+    Molecule(int mAtoms=0, int mCharge =0, int nZals[]=0)
+        :nAtom(mAtoms), charge(mCharge), zvals(nZals)
+    {
+
+    }
+
+
+};
+
+void Molecule::printInfo()
+{
+     cerr<<this->nAtom<<endl;
+}
+
+#endif // MOLECULE_INCLUDED

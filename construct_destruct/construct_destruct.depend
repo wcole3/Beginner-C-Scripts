@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1468204323 source:/Users/wcole/Desktop/CPP_Programs_from_book/construct_destruct/main.cpp
+	<cstdlib>
+	<cstdio>
+	<iostream>
+

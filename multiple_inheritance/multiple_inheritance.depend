@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1487535055 source:/Users/wcole/Desktop/CPP_Programs_from_book/multiple_inheritance/main.cpp
+	<cstdio>
+	<cstdlib>
+	<iostream>
+

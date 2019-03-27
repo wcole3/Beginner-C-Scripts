@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1468028469 source:/Users/wcole/Desktop/CPP_Programs_from_book/protection_test/main.cpp
+	<cstdlib>
+	<cstdio>
+	<iostream>
+

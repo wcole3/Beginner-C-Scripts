@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1486007938 source:/Users/wcole/Desktop/CPP_Programs_from_book/DArray/main.cpp
+	<cstdlib>
+	<cstdio>
+	<iostream>
+

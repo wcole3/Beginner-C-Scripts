@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1458677006 source:/Users/wcole/Desktop/CPP_Programs_from_book/printArgs/main.cpp
+	<cstdlib>
+	<cstdio>
+	<iostream>
+

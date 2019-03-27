@@ -1,0 +1,29 @@
+//h file for tracher class
+#ifndef TEACHER_INCLUDED
+#define TEACHER_INCLUDED
+#include <iostream>
+#include <cstdlib>
+#include <cstdio>
+
+using namespace std;
+
+
+class Teacher
+{
+public:
+    Teacher(string nName="no Name", string nCourse="no name")
+    {
+        tName=nName;
+        tCourse=nCourse;
+        cout<<"constructing teacher object"<<endl;
+    }
+
+protected:
+    string tName;
+    string tCourse;
+
+
+};
+
+
+#endif // TEACHER_INCLUDED

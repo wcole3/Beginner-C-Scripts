@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1486440313 source:/Users/wcole/Desktop/CPP_Programs_from_book/parse_file/main.cpp
+	<cstdlib>
+	<cstdio>
+	<fstream>
+	<sstream>
+	<iostream>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1487966339 source:/Users/wcole/Desktop/CPP_Programs_from_book/template_class/main.cpp
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	"templateVector"
+
+1487966529 /Users/wcole/Desktop/CPP_Programs_from_book/template_class/templateVector
+

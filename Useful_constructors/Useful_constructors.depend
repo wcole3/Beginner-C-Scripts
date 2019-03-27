@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1469557032 source:/Users/wcole/Desktop/CPP_Programs_from_book/Useful_constructors/main.cpp
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	"teacher"
+
+1469557285 /Users/wcole/Desktop/CPP_Programs_from_book/Useful_constructors/teacher
+	<iostream>
+	<cstdlib>
+	<cstdio>
+

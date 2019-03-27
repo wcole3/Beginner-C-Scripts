@@ -1,0 +1,17 @@
+#ifndef SAVING_INCLUDED
+#define SAVING_INCLUDED
+class Saving
+{
+public:
+unsigned acctNum;
+double balance;
+
+double deposit(double amt)
+{
+balance+=amt;
+return balance;
+}
+};
+
+
+#endif // SAVING_INCLUDED

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1466359494 source:/Users/wcole/Desktop/CPP_Programs_from_book/Pointer_demo/main.cpp
+	<cstdio>
+	<cstdlib>
+	<iostream>
+

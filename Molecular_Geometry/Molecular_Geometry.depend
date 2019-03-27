@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1489461484 source:/Users/wcole/Desktop/CPP_Programs_from_book/Molecular_Geometry/main.cpp
+	<cstdlib>
+	<cstdio>
+	<fstream>
+	<iostream>
+	"Molecule"
+
+1489461911 /Users/wcole/Desktop/CPP_Programs_from_book/Molecular_Geometry/Molecule
+	<cstdlib>
+	<cstdio>
+	<fstream>
+	<iostream>
+

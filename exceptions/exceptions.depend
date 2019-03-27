@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1487018374 source:/Users/wcole/Desktop/CPP_Programs_from_book/exceptions/main.cpp
+	<cstdio>
+	<cstdlib>
+	<iostream>
+

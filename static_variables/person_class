@@ -1,0 +1,41 @@
+#ifndef PERSON_CLASS_INCLUDED
+#define PERSON_CLASS_INCLUDED
+#include <cstdio>
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+class Person
+{
+public:
+    Person(string pName = "No Name", string pGen="male") :name(pName), gen(pGen)
+    {
+        noOfPerson++;
+        cout<<"Constructed person..."<<endl;
+    }
+    ~Person()
+    {
+        noOfPerson--;
+        cout<<"Destructed person "<<name<<endl;
+    }
+    static int Population(void)
+    {
+
+        return noOfPerson;
+    }
+    const string& getName()
+    {
+        return name;
+    }
+protected:
+    string name;
+    string gen;
+    static int noOfPerson;
+};
+
+int Person::noOfPerson = 0;
+
+
+
+#endif // PERSON_CLASS_INCLUDED

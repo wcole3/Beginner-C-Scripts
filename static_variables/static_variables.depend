@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1476478739 source:/Users/wcole/Desktop/CPP_Programs_from_book/static_variables/main.cpp
+	<cstdlib>
+	<cstdio>
+	<iostream>
+	"person_class"
+
+1476478740 /Users/wcole/Desktop/CPP_Programs_from_book/static_variables/person_class
+	<cstdio>
+	<cstdlib>
+	<iostream>
+
